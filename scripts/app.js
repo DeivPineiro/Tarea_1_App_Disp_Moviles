@@ -1,7 +1,7 @@
 const app = new Vue({
 
     el: '#contenedor',
-    juegos : [
+    data: [
         {
             nombre: "Super Mario Bros", 
             anio: 1986, 

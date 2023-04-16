@@ -19,7 +19,7 @@
 			calificacion mayor a 6 y resaltaremos las super recomendadas que tengan calificación de 8 en adelante.</p>
 
 		<ul>
-			<template v-for="item in juegos">
+			<template v-for="item in data">
 				<li v-if="item.calificacion > 6">
 
 					<h2> {{item.nombre}} : año {{item.anio}} </h2>
