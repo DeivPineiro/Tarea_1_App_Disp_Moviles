@@ -1,7 +1,8 @@
 const app = new Vue({
 
     el: '#contenedor',
-    data: [
+    data: {
+        juegos: [
         {
             nombre: "Super Mario Bros", 
             anio: 1986, 
@@ -43,7 +44,7 @@ const app = new Vue({
                     "Arcade", "Nintendo" 
                     ] 
 
-        },
-    ]
+        }
+    ]}
 
 });
